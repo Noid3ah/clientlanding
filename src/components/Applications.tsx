@@ -93,7 +93,7 @@ const Applications = () => {
               My expertise with these applications ensures I can work seamlessly
               with your existing systems and provide professional accounting
               services that integrate perfectly with your business workflow.
-              Whether you're using QuickBooks for daily operations or need
+              Whether you&apos;re using QuickBooks for daily operations or need
               complex financial modeling in Excel, I have the skills to deliver
               exceptional results.
             </p>

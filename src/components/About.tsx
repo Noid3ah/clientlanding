@@ -11,7 +11,7 @@ const About = () => {
               About My Business
             </h2>
             <p className='text-lg text-gray-600 leading-relaxed'>
-              I'm a dedicated freelance accounting professional with over 8
+              I&apos;m a dedicated freelance accounting professional with over 8
               years of experience helping individuals and small businesses
               navigate their financial responsibilities. My approach combines
               technical expertise with personalized service to ensure each
