@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -64,9 +65,12 @@ const About = () => {
             </div>
 
             <div className='pt-4'>
-              <button className='bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors'>
+              <Link 
+                href="/services"
+                className='bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block'
+              >
                 Learn More About My Services
-              </button>
+              </Link>
             </div>
           </div>
 

@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ServiceRequestModal from './ServiceRequestModal';
+import Link from 'next/link';
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <section id='home' className='min-h-screen bg-gray-50 flex items-center'>
       <div className='container mx-auto px-4 py-16'>
@@ -33,12 +40,18 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
-              <button className='bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors'>
+              <button 
+                onClick={openModal}
+                className='bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors'
+              >
                 Request my services?
               </button>
-              {/* <button className='border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors'>
-                Let&apos;s talk
-              </button> */}
+              <Link 
+                href="/services"
+                className='border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors inline-block text-center'
+              >
+                Learn More About My Services
+              </Link>
             </div>
           </div>
 
@@ -71,6 +84,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      
+      {/* Service Request Modal */}
+      <ServiceRequestModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };

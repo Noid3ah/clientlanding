@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Services = () => {
   const services = [
@@ -80,9 +81,12 @@ const Services = () => {
               </ul>
 
               <div className='mt-6 text-center'>
-                <button className='bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors'>
+                <Link 
+                  href={`/services#${service.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  className='bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block'
+                >
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
           ))}

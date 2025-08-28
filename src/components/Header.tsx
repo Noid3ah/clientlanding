@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,6 +29,12 @@ const Header = () => {
             >
               Services
             </a>
+            <Link
+              href='/services'
+              className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
+            >
+              Services Details
+            </Link>
             <a
               href='#about'
               className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
@@ -95,6 +102,12 @@ const Header = () => {
               >
                 Services
               </a>
+              <Link
+                href='/services'
+                className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
+              >
+                Services Details
+              </Link>
               <a
                 href='#about'
                 className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
