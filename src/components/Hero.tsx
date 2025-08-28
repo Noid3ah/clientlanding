@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className='relative w-full h-full'>
                   {/* Profile image positioned to overflow at top */}
                   <img
-                    src='/landingIMG-1.png'
+                    src='/landingIMG.png'
                     alt='Profile Photo'
                     className='absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-auto object-cover -translate-y-5'
                     style={{
