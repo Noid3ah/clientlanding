@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'John Smith Accounting - Professional Tax & Bookkeeping Services',
+  title: 'Romaine Peddie Accounting - Professional Tax & Bookkeeping Services',
   description:
     'Professional freelance accounting services including tax preparation, bookkeeping, and client management. Remote accounting solutions for individuals and small businesses.',
   keywords:
