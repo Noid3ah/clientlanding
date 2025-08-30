@@ -81,10 +81,10 @@ const Footer = () => {
               <p>Kingston 8, Jamaica</p>
               <p className='mt-4'>
                 <a
-                  href='mailto:peddiework@gmail.com'
+                  href='mailto:peddiework1@gmail.com'
                   className='hover:text-orange-500 transition-colors'
                 >
-                  peddiework@gmail.com
+                  peddiework1@gmail.com
                 </a>
               </p>
               <p>

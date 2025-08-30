@@ -90,7 +90,7 @@ export default function LetsTalkModal() {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
-        to_email: 'peddiework@gmail.com', // Your email address
+        to_email: 'peddiework1@gmail.com', // Your email address
       };
 
       // Send email using EmailJS
@@ -135,7 +135,7 @@ export default function LetsTalkModal() {
           <DialogTitle>
             <span className='text-orange-500'>Let&apos;s Talk</span>
           </DialogTitle>
-          <DialogDescription>peddiework@gmail.com</DialogDescription>
+          <DialogDescription>peddiework1@gmail.com</DialogDescription>
         </DialogHeader>
 
         {/* Success/Error Messages */}

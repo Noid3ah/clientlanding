@@ -135,7 +135,7 @@ const ServiceRequestModal: React.FC<ServiceRequestModalProps> = ({
         phone: formData.phone,
         company: formData.company,
         description: formData.description,
-        to_email: 'peddiework@gmail.com', // Your email address
+        to_email: 'peddiework1@gmail.com', // Your email address
       };
 
       // Send email using EmailJS
