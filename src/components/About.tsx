@@ -9,7 +9,7 @@ const About = () => {
           {/* Left Column - Content */}
           <div className='space-y-6'>
             <h2 className='text-4xl font-bold text-gray-900'>
-              About My Business
+              About Me & What I Do
             </h2>
             <p className='text-lg text-gray-600 leading-relaxed'>
               I&apos;m a dedicated freelance accounting professional with over 8
@@ -65,8 +65,8 @@ const About = () => {
             </div>
 
             <div className='pt-4'>
-              <Link 
-                href="/services"
+              <Link
+                href='/services'
                 className='bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block'
               >
                 Learn More About My Services
@@ -110,13 +110,13 @@ const About = () => {
 
             <div className='bg-gray-50 rounded-xl p-6'>
               <h3 className='font-semibold text-gray-900 mb-3'>
-                Business Verification
+                Proven & Trusted
               </h3>
               <p className='text-sm text-gray-600'>
-                This website serves as official business verification for
-                payment processors and financial institutions. All business
-                information provided is accurate and up-to-date for compliance
-                purposes.
+                Built on reliability and consistency, this journey is about
+                creating work that people can count on. Trust comes from keeping
+                things simple and clear, and dependable every step of the way
+                and that is what I offer.
               </p>
             </div>
           </div>

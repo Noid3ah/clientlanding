@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import ServiceRequestModal from './ServiceRequestModal';
 import Link from 'next/link';
@@ -40,17 +42,17 @@ const Hero = () => {
             </div>
 
             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
-              <button 
+              <button
                 onClick={openModal}
                 className='bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors'
               >
-                Request my services?
+                Request Services
               </button>
-              <Link 
-                href="/services"
-                className='border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors inline-block text-center'
+              <Link
+                href='/services'
+                className='border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-orange-500 hover:text-white transition-colors inline-block text-center hover:border-orange-500'
               >
-                Learn More About My Services
+                Learn More
               </Link>
             </div>
           </div>
@@ -84,7 +86,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Service Request Modal */}
       <ServiceRequestModal isOpen={isModalOpen} onClose={closeModal} />
     </section>

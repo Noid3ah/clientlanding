@@ -46,7 +46,7 @@ const Services = () => {
       <div className='container mx-auto px-4'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl font-bold text-gray-900 mb-4'>
-            Services I Offer
+            What I Can Do for You
           </h2>
           <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
             Professional accounting services tailored to meet your business
@@ -81,8 +81,10 @@ const Services = () => {
               </ul>
 
               <div className='mt-6 text-center'>
-                <Link 
-                  href={`/services#${service.title.toLowerCase().replace(/\s+/g, '-')}`}
+                <Link
+                  href={`/services#${service.title
+                    .toLowerCase()
+                    .replace(/\s+/g, '-')}`}
                   className='bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors inline-block'
                 >
                   Learn More

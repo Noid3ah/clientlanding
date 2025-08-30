@@ -4,36 +4,36 @@ const Applications = () => {
   const applications = [
     {
       name: 'MS Excel',
-      description: 'Advanced spreadsheet analysis and financial modeling',
-      icon: '📊',
+      description: 'Advanced spreadsheet analysis and financial modeling.',
+      icon: '/icon/excel.png',
       proficiency: 'Expert',
-      useCase: 'Financial analysis, budgeting, and data management',
+      useCase: 'Financial analysis, budgeting, and data management.',
     },
     {
       name: 'QuickBooks',
-      description: 'Comprehensive accounting software for small businesses',
-      icon: '💼',
+      description: 'Comprehensive accounting software for small businesses.',
+      icon: '/icon/quick.png',
       proficiency: 'Advanced',
       useCase: 'Bookkeeping, invoicing, and financial reporting',
     },
     {
       name: 'FreshBooks',
-      description: 'Cloud-based accounting solution for freelancers',
-      icon: '☁️',
+      description: 'Cloud-based accounting solution for freelancers.',
+      icon: '/icon/fresh.png',
       proficiency: 'Advanced',
       useCase: 'Client invoicing, expense tracking, and time management',
     },
     {
       name: 'Sage 300',
-      description: 'Enterprise-level accounting and ERP software',
-      icon: '🏢',
+      description: 'Enterprise-level accounting and ERP software.',
+      icon: '/icon/sage.png',
       proficiency: 'Intermediate',
       useCase: 'Complex business accounting and financial management',
     },
     {
-      name: 'CRM Systems',
-      description: 'Customer relationship management platforms',
-      icon: '👥',
+      name: 'Salesforce',
+      description: 'Customer relationship management platform.',
+      icon: '/icon/salesforce.png',
       proficiency: 'Advanced',
       useCase: 'Client management, communication, and project tracking',
     },
@@ -59,7 +59,13 @@ const Applications = () => {
               className='bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300'
             >
               <div className='flex items-start space-x-4'>
-                <div className='text-4xl'>{app.icon}</div>
+                <div className='text-2xl'>
+                  <img
+                    src={app.icon}
+                    alt={app.icon}
+                    className='w-12 h-12'
+                  ></img>
+                </div>
                 <div className='flex-1'>
                   <div className='flex items-center justify-between mb-2'>
                     <h3 className='text-xl font-bold text-gray-900'>

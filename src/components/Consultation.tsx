@@ -18,11 +18,11 @@ const Consultation = () => {
                 <div>
                   <h3 className='font-bold text-lg mb-2'>Office</h3>
                   <p className='text-gray-200 leading-relaxed'>
-                    123 Business Street
+                    193 1/2 Constant Spring Road
                     <br />
-                    New York, NY 10001
+                    Kingston 8,
                     <br />
-                    United States
+                    Jamaica
                   </p>
                 </div>
               </div>
@@ -33,9 +33,9 @@ const Consultation = () => {
                 <div>
                   <h3 className='font-bold text-lg mb-2'>Contact</h3>
                   <p className='text-gray-200 leading-relaxed'>
-                    info@johnsmithaccounting.com
+                    peddiework@gmail.com
                     <br />
-                    support@johnsmithaccounting.com
+                    (876) 867-0310
                   </p>
                 </div>
               </div>
@@ -146,9 +146,9 @@ const Consultation = () => {
 
               <button
                 type='submit'
-                className='w-full bg-green-500 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-green-600 transition-colors'
+                className='w-full bg-orange-500 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-orange-600 transition-colors'
               >
-                Request a Quote
+                Request Consultation
               </button>
             </form>
           </div>

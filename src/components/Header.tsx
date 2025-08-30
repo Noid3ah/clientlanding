@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
+import LetsTalkModal from '@/components/LetsTalkModal';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,9 @@ const Header = () => {
           {/* Logo */}
           <div className='flex items-center space-x-2'>
             <span className='text-orange-500 text-2xl font-bold'>✦</span>
-            <span className='text-xl font-bold text-gray-900'>johnsmith.</span>
+            <span className='text-xl font-bold text-gray-900'>
+              romainepeddie.
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -29,12 +32,7 @@ const Header = () => {
             >
               Services
             </a>
-            <Link
-              href='/services'
-              className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
-            >
-              Services Details
-            </Link>
+
             <a
               href='#about'
               className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
@@ -51,9 +49,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className='hidden md:block'>
-            <button className='border-2 border-gray-900 text-gray-900 px-6 py-2 rounded-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors'>
-              Let&apos;s talk
-            </button>
+            <LetsTalkModal />
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,12 +98,7 @@ const Header = () => {
               >
                 Services
               </a>
-              <Link
-                href='/services'
-                className='text-gray-700 hover:text-orange-500 transition-colors font-medium'
-              >
-                Services Details
-              </Link>
+
               <a
                 href='#about'
                 className='text-gray-700 hover:text-orange-500 transition-colors font-medium'

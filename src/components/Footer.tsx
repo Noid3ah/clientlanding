@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='md:col-span-2'>
             <div className='flex items-center space-x-2 mb-4'>
               <span className='text-orange-500 text-2xl font-bold'>✦</span>
-              <span className='text-xl font-bold'>johnsmith.</span>
+              <span className='text-xl font-bold'>romainepeddie.</span>
             </div>
             <p className='text-gray-300 mb-6 max-w-md'>
               Professional accounting services for individuals and small
@@ -77,14 +77,14 @@ const Footer = () => {
           <div>
             <h3 className='text-lg font-semibold mb-4'>Contact</h3>
             <div className='space-y-2 text-gray-300'>
-              <p>123 Business Street</p>
-              <p>New York, NY 10001</p>
+              <p>193 1/2 Constant Spring Road</p>
+              <p>Kingston 8, Jamaica</p>
               <p className='mt-4'>
                 <a
-                  href='mailto:info@johnsmithaccounting.com'
+                  href='mailto:peddiework@gmail.com'
                   className='hover:text-orange-500 transition-colors'
                 >
-                  info@johnsmithaccounting.com
+                  peddiework@gmail.com
                 </a>
               </p>
               <p>
@@ -92,7 +92,7 @@ const Footer = () => {
                   href='tel:+1234567890'
                   className='hover:text-orange-500 transition-colors'
                 >
-                  (123) 456-7890
+                  (876) 867-0310
                 </a>
               </p>
             </div>
@@ -102,7 +102,7 @@ const Footer = () => {
         <div className='border-t border-gray-800 mt-12 pt-8'>
           <div className='flex flex-col md:flex-row justify-between items-center'>
             <p className='text-gray-400 text-sm'>
-              © 2024 John Smith Accounting. All rights reserved.
+              © 2024 Romaine Peddie Accounting. All rights reserved.
             </p>
             <div className='flex space-x-6 mt-4 md:mt-0'>
               <a
