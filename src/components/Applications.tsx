@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Applications = () => {
   const applications = [
@@ -60,11 +61,13 @@ const Applications = () => {
             >
               <div className='flex items-start space-x-4'>
                 <div className='text-2xl'>
-                  <img
+                  <Image
                     src={app.icon}
-                    alt={app.icon}
+                    alt={`${app.name} icon`}
+                    width={48}
+                    height={48}
                     className='w-12 h-12'
-                  ></img>
+                  />
                 </div>
                 <div className='flex-1'>
                   <div className='flex items-center justify-between mb-2'>

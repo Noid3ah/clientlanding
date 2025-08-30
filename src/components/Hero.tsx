@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import ServiceRequestModal from './ServiceRequestModal';
 import Link from 'next/link';
 
@@ -63,9 +64,11 @@ const Hero = () => {
               <div className='w-[450px] h-[450px] bg-gray-100 rounded-full p-4 shadow-xl overflow-hidden'>
                 <div className='relative w-full h-full'>
                   {/* Profile image positioned to overflow at top */}
-                  <img
+                  <Image
                     src='/landingIMG.png'
                     alt='Profile Photo'
+                    width={450}
+                    height={450}
                     className='absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full h-auto object-cover -translate-y-5'
                     style={{
                       bottom: '-20%',
